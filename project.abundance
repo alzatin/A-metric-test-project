@@ -1,0 +1,15 @@
+{
+    "atomType": "Molecule",
+    "name": "A metric test project",
+    "x": 0,
+    "y": 0,
+    "uniqueID": 1720547265332,
+    "ioValues": [],
+    "topLevel": true,
+    "allAtoms": [],
+    "allConnectors": [],
+    "unitsKey": "MM",
+    "fileTypeVersion": 1,
+    "compiledBom": {},
+    "filetypeVersion": 1
+}
