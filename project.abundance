@@ -6,10 +6,69 @@
     "uniqueID": 1720547265332,
     "ioValues": [],
     "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
+    "allAtoms": [
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": 1720547275110,
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 1720547306065
+                }
+            ]
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.37433862433862436,
+            "y": 0.5905292479108635,
+            "uniqueID": 1720547287125,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.5244708994708994,
+            "y": 0.44846796657381616,
+            "uniqueID": 1720547306065,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1720547287125
+                },
+                {
+                    "name": "height",
+                    "ioValue": 10
+                }
+            ]
+        }
+    ],
+    "allConnectors": [
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1720547287125,
+            "ap2ID": 1720547306065
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 1720547306065,
+            "ap2ID": 1720547275110
+        }
+    ],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
-    "compiledBom": {},
+    "compiledBom": [],
     "filetypeVersion": 1
 }
