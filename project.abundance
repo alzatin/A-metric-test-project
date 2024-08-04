@@ -1,6 +1,6 @@
 {
     "atomType": "Molecule",
-    "name": "A metric test project",
+    "name": "A-metric-test-project",
     "x": 0,
     "y": 0,
     "uniqueID": 1720547265332,
@@ -23,8 +23,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.37433862433862436,
-            "y": 0.5905292479108635,
+            "x": 0.3252562907735322,
+            "y": 0.3495440729483283,
             "uniqueID": 1720547287125,
             "ioValues": [
                 {
@@ -49,6 +49,23 @@
                     "ioValue": 10
                 }
             ]
+        },
+        {
+            "atomType": "Export",
+            "name": "Export",
+            "x": 0.32898415657036345,
+            "y": 0.7142857142857143,
+            "uniqueID": 1722806065221,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": ""
+                }
+            ],
+            "type": "SVG",
+            "resolution": 72,
+            "importIndex": 0,
+            "fileName": "reason"
         }
     ],
     "allConnectors": [
